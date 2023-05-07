@@ -1,0 +1,51 @@
+.what-clients-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+@media (min-width: 974px){
+  .what-clients-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .what-clients-grid__item:nth-child(2n+1){
+    padding-right: 40px;
+  }
+}
+
+.why-slider{
+  padding: 0 50px;
+  width: 100%;
+}
+.why-content{
+  overflow: hidden;
+  display: flex;
+}
+.why-slider-item{
+  width: 100%;
+  min-width: 100%;
+  font-size: 30px;
+  text-transform: none;
+}
+.why-slider-text{
+  text-transform: none;
+}
+.why-title-scase-studies{
+  font-size: 15vw;
+}
+#intro{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.7;
+}
+
+.index-bg-transparent{
+  background: none;
+}
+.index-footer{
+  opacity:0;
+}
+.index-img-hero-hidden{
+  display: none;
+}
