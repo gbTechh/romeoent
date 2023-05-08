@@ -44,8 +44,16 @@
   background: none;
 }
 .index-footer{
-  opacity:0;
+  opacity:1;
+  position: relative;
+  z-index: 1;
 }
 .index-img-hero-hidden{
   display: none;
+}
+.who-we-are-logo-footer{
+  object-fit: contain;
+  padding: 10px;
+  border-radius: 0;
+  height: 100%;
 }
