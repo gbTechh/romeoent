@@ -69,6 +69,17 @@
 .index-cuadrados {
   grid-template-columns: repeat(5, 1fr);
 }
+.index-cuadrados-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+@media (max-width: 650px){
+  .index-cuadrados {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .index-cuadrados-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 .index-event-card-text {
   font-size: 30px;
 }
@@ -105,4 +116,104 @@
 }
 .w-webflow-badge {
   display: none !important;
+}
+.text-size-40{
+  font-size: 40px;
+}
+.grid-3-col{
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-4-col{
+  grid-template-columns: repeat(4, 1fr);
+}
+@media (max-width: 796px){
+  .grid-3-col{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid-4-col{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.event-card{
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  position: relative;
+  padding: 3rem;
+  border-radius: 1rem;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.event-card-title{
+  color:#fff;
+  margin-bottom: 2rem;
+}
+.event-card-ul{
+  margin: 0;
+  padding: 0;
+}
+.event-card-list{
+  margin-bottom: 1rem;
+  width: 100%;
+  text-align: center;
+  list-style: none;
+  color: #fff;
+}
+.is-about--marketing{
+  padding-top: 1rem !important;
+  padding-bottom: 50%;
+}
+.is-about--clients{
+  padding-top: 0.1rem !important;
+  padding-bottom: 30%;
+}
+.bg-white{
+  background: #fff;
+}
+.text-festivals{
+  padding-bottom: 5rem;
+}
+.text-size-20px{
+  font-size: 20px;
+}
+@media (max-width: 786){
+  .text-size-20px{
+    font-size: 16px;
+  }
+}
+.festival-h2{
+  margin-bottom: 1rem;
+}
+.video-festivals-container{
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+.video-festivals{
+  width: 100%;
+}
+.title-questions{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.client-since{
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin-top: 1rem;
+}
+.list-card-client{
+  font-size: 15px;
+}
+.rs-overflow-hidden{
+  overflow: hidden;
+}
+.slider-client-item{
+  width: 100%;
 }
