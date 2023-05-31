@@ -287,3 +287,42 @@
 .index-bg-black{
   background-color: #0d0d11;
 }
+
+.rs-footer-links{
+  width: 100%;
+  padding: 2rem;
+}
+.rs-footer-links ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+@media (min-width: 789px){
+  .rs-footer-links ul {
+    flex-direction: row;
+  }
+}
+.rs-footer-links-item{
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  margin: 1rem 0;
+}
+.rs-footer-copy{
+  width: 100%;
+}
+.rs-footer-copy-text{
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+.rs-logo-wrap{
+  width: 80px;
+  padding: 5px;
+  height: auto;
+  background: rgba(255,255,255,0.75);
+  background: white;
+}
